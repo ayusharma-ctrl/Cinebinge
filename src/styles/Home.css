@@ -1,0 +1,11 @@
+#appContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30vh;
+    overflow-x: hidden;
+  }
+
+  #showResultsFor {
+    margin-left: 30px;
+  }

@@ -1,0 +1,27 @@
+.row {
+    max-height: fit-content;
+    width: 98%;
+    margin: 30px 0px 30px 30px;
+}
+
+.row__inner {
+    overflow: scroll;
+    transition: 400ms transform;
+    font-size: 0;
+    white-space: nowrap;
+    margin: 22px 0;
+    padding-bottom: 15px;
+}
+
+.row__inner:hover {
+    transform: translate3d(0, 10px, 0);
+}
+
+.row__inner:hover .tile {
+    opacity: 0.3;
+}
+
+.row__inner:hover .tile:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
